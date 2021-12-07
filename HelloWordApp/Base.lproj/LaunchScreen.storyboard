@@ -16,21 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SsF-nG-JUO">
-                                <rect key="frame" x="116" y="384" width="183" height="128"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Q2n-eI-aZj">
+                                <rect key="frame" x="113.5" y="428" width="187" height="40"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="34"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
-                            <constraint firstItem="SsF-nG-JUO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="2km-oO-K5z"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SsF-nG-JUO" secondAttribute="trailing" constant="140" id="D4F-nJ-fzK"/>
-                            <constraint firstItem="SsF-nG-JUO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="e9M-bo-dg5"/>
-                            <constraint firstItem="SsF-nG-JUO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="k1f-BC-eWN"/>
+                            <constraint firstItem="Q2n-eI-aZj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JMI-Vx-QTK"/>
+                            <constraint firstItem="Q2n-eI-aZj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113.5" id="MWs-lx-Gzi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q2n-eI-aZj" secondAttribute="trailing" constant="113.5" id="yZF-R1-NHZ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,9 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
